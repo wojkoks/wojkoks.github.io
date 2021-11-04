@@ -23,3 +23,38 @@ h1 {
 
     color: #FC7629;
 }*/
+
+dumenzjeb {
+    text-align:center;
+    padding:15px 0;
+    border:3px solid #FDD700;
+    animation:szerokosc 5s ease-in-out 0s infinite alternate backwards,
+              tlo 100ms linear 5s infinite normal forwards;
+    -webkit-animation:szerokosc 5s ease-in-out 0s infinite alternate backwards,
+                      tlo 100ms linear 5s infinite normal forwards;
+  }
+
+  /* ------------ANIMACJE------------ */
+  @keyframes szerokosc
+  {
+    0% { width:150px; }
+    100% { width:350px; }
+  }
+
+  @keyframes tlo
+  {
+    0% { background-color:#FFF; }
+    100% { background-color:#F00; }
+  }
+
+  @-webkit-keyframes szerokosc
+  {
+    0% { width:150px; }
+    100% { width:350px; }
+  }
+
+  @-webkit-keyframes tlo
+  {
+    0% { background-color:#FFF; }
+    100% { background-color:#F00; }
+  }
