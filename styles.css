@@ -31,7 +31,44 @@ dumenzjeb {
     animation:szerokosc 5s ease-in-out 0s infinite alternate backwards,
               tlo 100ms linear 5s infinite normal forwards;
     -webkit-animation:szerokosc 5s ease-in-out 0s infinite alternate backwards,
-                      tlo 100ms linear 5s infinite normal forwards;
+                      tlo 100ms linear 0s infinite normal forwards;
+  }
+
+  /* ------------ANIMACJE------------ */
+  @keyframes szerokosc
+  {
+    0% { width:150px; }
+    100% { width:350px; }
+  }
+
+  @keyframes tlo
+  {
+    0% { background-color:rgb(255, 7, 172); }
+    25% { background-color: rgb(0, 242, 255);}
+    50% { background-color: yellow;}
+    100% { background-color:#F00; }
+  }
+
+  @-webkit-keyframes szerokosc
+  {
+    0% { width:150px; }
+    100% { width:350px; }
+  }
+
+  @-webkit-keyframes tlo
+  {
+    0% { background-color:#FFF; }
+    100% { background-color:#F00; }
+  }
+
+  dumenzjeblofi {
+    text-align:center;
+    padding:15px 0;
+    border:3px solid #FDD700;
+    animation:szerokosc 5s ease-in-out 0s infinite alternate backwards,
+              tlo 100ms linear 5s infinite normal forwards;
+    -webkit-animation:szerokosc 5s ease-in-out 0s infinite alternate backwards,
+                      tlo 1000ms linear 0s infinite normal forwards;
   }
 
   /* ------------ANIMACJE------------ */
