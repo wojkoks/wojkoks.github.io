@@ -1,28 +1,57 @@
-
-
-td { /* selector */
-
-    text-align: center; /* property: value */
-
+body{
+  font-family: "Raleway";
+  font-weight: bold;
+  font-size: 20px;
+  margin: 5%;
+  background-image:url("obrazki/harnas.png");
 }
+
 
 h3 {
 
     color: #FC7629;
+    font-size: 30px;
 }
-/*
-p {
-    color: greenyellow;
-}
-*/
-/*
-h1 {
-    color: palevioletred;
-}*/
-/*h3, p {
 
-    color: #FC7629;
-}*/
+footer p{
+  color:red;
+}
+
+p{
+  color:darkblue;
+  font-weight: bolder;
+}
+.first-class{
+  color:red;
+}
+
+h1{
+  color:green !important;
+}
+
+.third-class{
+  color:red;
+}
+#first-id{
+  color: blue;
+}
+
+table{
+  text-align: center;
+  line-height: 200%;
+  width: 300px;
+  height: 200px;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+footer strong{
+  text-decoration:underline wavy #0fa407;
+}
+
+mark {
+  border-radius: 20%;
+}
 
 dumenzjeb {
     text-align:center;
@@ -39,16 +68,6 @@ dumenzjeb {
   {
     0% { width:150px; }
     100% { width:350px; }
-  }
-  @keyframes szerokosc
-  {
-    from {top: 0px;}
-    to {top: 200px;}
-  }
-  @keyframes tlo
-  {
-    from {top: 0px;}
-    to {top: 200px;}
   }
 
   @keyframes tlo
@@ -79,32 +98,14 @@ dumenzjeb {
     animation:szerokosc 5s ease-in-out 0s infinite alternate backwards,
               tlo 100ms linear 5s infinite normal forwards;
     -webkit-animation:szerokosc 5s ease-in-out 0s infinite alternate backwards,
-                      tlo 1000ms linear 0s infinite normal forwards;
+                      tlo 3000ms linear 0s infinite normal forwards;
   }
 
-  /* ------------ANIMACJE------------ */
-  @keyframes szerokosc
-  {
-    0% { width:150px; }
-    100% { width:350px; }
-  }
-
-  @keyframes tlo
-  {
-    0% { background-color:rgb(255, 7, 172); }
-    25% { background-color: rgb(0, 242, 255);}
-    50% { background-color: yellow;}
-    100% { background-color:#F00; }
-  }
-
-  @-webkit-keyframes szerokosc
-  {
-    0% { width:150px; }
-    100% { width:350px; }
-  }
-
-  @-webkit-keyframes tlo
-  {
-    0% { background-color:#FFF; }
-    100% { background-color:#F00; }
+  dumenzjebczileraooo {
+    text-align:center;
+    padding:15px 0;
+    animation:szerokosc 5s ease-in-out 0s infinite alternate backwards,
+              tlo 100ms linear 5s infinite normal forwards;
+    -webkit-animation:szerokosc 5s ease-in-out 0s infinite alternate backwards,
+                      tlo 100ms linear 0s infinite normal forwards;
   }
